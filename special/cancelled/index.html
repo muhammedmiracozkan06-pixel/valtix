@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Cancelled</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            background: white;
+            border-radius: 18px;
+            padding: 45px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+        }
+
+        .icon {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            color: #666;
+            font-size: 17px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+
+        .language {
+            border-top: 1px solid #e5e5e5;
+            padding-top: 28px;
+            margin-top: 28px;
+        }
+
+        .language h2 {
+            font-size: 23px;
+            margin-bottom: 12px;
+        }
+
+        .language p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .status {
+            display: inline-block;
+            background: #eee;
+            color: #444;
+            padding: 8px 14px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 28px;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="icon">🚫</div>
+
+        <!-- English -->
+        <section class="language">
+            <h1>This project has been cancelled.</h1>
+
+            <p class="description">
+                Development of this project has been officially discontinued.
+                The project will no longer receive updates, new features,
+                or active development.
+            </p>
+
+            <p>
+                Thank you for your interest and support.
+            </p>
+
+            <span class="status">Status: Cancelled</span>
+        </section>
+
+
+        <!-- Türkçe -->
+        <section class="language">
+            <h2>🇹🇷 Bu proje iptal edildi.</h2>
+
+            <p>
+                Bu projenin geliştirilmesi resmi olarak durdurulmuştur.
+                Proje artık güncelleme, yeni özellik veya aktif geliştirme
+                almayacaktır.
+            </p>
+
+            <p>
+                İlginiz ve desteğiniz için teşekkür ederiz.
+            </p>
+
+            <span class="status">Durum: İptal edildi</span>
+        </section>
+
+
+        <!-- Deutsch -->
+        <section class="language">
+            <h2>🇩🇪 Dieses Projekt wurde eingestellt.</h2>
+
+            <p>
+                Die Entwicklung dieses Projekts wurde offiziell eingestellt.
+                Das Projekt wird keine weiteren Updates, neuen Funktionen
+                oder aktive Entwicklung erhalten.
+            </p>
+
+            <p>
+                Vielen Dank für Ihr Interesse und Ihre Unterstützung.
+            </p>
+
+            <span class="status">Status: Eingestellt</span>
+        </section>
+
+    </main>
+
+</body>
+</html>
